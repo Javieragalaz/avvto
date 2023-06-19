@@ -15,11 +15,11 @@ class AboutUsOneSection extends Component{
 						<div className="row align-items-center">
 							<div className="col-lg-5 mb-40">
 								<div className="heading-bx mb-4">
-									<h6 className="title-ext text-primary">about Us</h6>
-									<h2 className="title">WE'RE A COMPANY OF TALENTED ENGINEERS &amp; MECHANICS</h2>
-									<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+									<h6 className="title-ext text-primary">Nosotros</h6>
+									<h2 className="title">SOMOS UNA COMPAÑÍA DE TALENTOSOS INGENIEROS &amp; MECÁNICOS</h2>
+									<p>Cómo compañía nos interesa entregarte el mejor servicio, nos preocupamos de la seguridad y cuidado de tu vehícula para que puedas sentirte cómodo tranquilo.</p>
 								</div>
-								<Link to="/about-1" className="btn btn-primary">About Us</Link>
+							
 							</div>
 							<div className="col-lg-7 mb-30">							
 								<div className="about-media">
@@ -27,10 +27,10 @@ class AboutUsOneSection extends Component{
 										<img src={pic1} alt=""/>
 									</div>
 									<div className="about-contact bg-primary text-white">
-										<h6 className="title-ext text-white">WANT TO TALK?</h6>
-										<h3 className="number mb-15 text-white">+22 123 456 7890 </h3>
-										<p className="mb-20">Need a special repair service? we are happy to fulfil every request in order to exceed your expe</p>
-										<Link to="/booking" className="btn btn-light">BOOK AN APPOINTMENT</Link>
+										<h6 className="title-ext text-white">¿QUIERES HABLAR?</h6>
+										<h3 className="number mb-15 text-white">+56935707961 </h3>
+										<p className="mb-20">Necesitar un servicio especial de reparación? estamos felices de ofrecerte un servicio que superes tus expectativas</p>
+										<Link to="/booking" className="btn btn-light">Agenda una visita</Link>
 									</div>
 								</div>
 							</div>

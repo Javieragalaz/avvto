@@ -69,11 +69,11 @@ class aboutSection extends Component {
 										<li className="active">
 											<Link to="#">Home<i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu">
-												<li><Link to="/"><span>Home 1</span> </Link></li>
-												<li><Link to="/index-2"><span>Home 2</span></Link></li>
+												<li><Link to="/"><span>Nuestros servicios</span> </Link></li>
+												<li><Link to="/index-2"><span>Sobre nuestro trabajo</span></Link></li>
 											</ul>
 										</li>
-										<li className="has-mega-menu "><Link to="#">Pages<i className="fa fa-chevron-down"></i></Link>
+										<li className="has-mega-menu "><Link to="#">Información<i className="fa fa-chevron-down"></i></Link>
 											<ul className="mega-menu">
 												<li>
 													<Link to="#">Sobre nosotros</Link>
@@ -98,7 +98,7 @@ class aboutSection extends Component {
 											<ul className="sub-menu">
 												<li className="add-menu-left">
 													<ul>
-														<li><Link to="/service-engine-diagnostics"><span>ATOMOVILES</span> </Link></li>
+														<li><Link to="/service-engine-diagnostics"><span>ATUOMÓVILES</span> </Link></li>
 														<li><Link to="/service-lube-oil-and-filters"><span>MOTOCICLETAS</span></Link></li>
 														<li><Link to="/service-belts-and-hoses"><span>FLOTAS</span></Link></li>
 													</ul>

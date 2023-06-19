@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
-import logo2 from '../../images/logo2.png';
+import logo2 from '../../images/aavto/3.png';
 import icon1 from '../../images/icon/contact/icon1.png';
 import icon2 from '../../images/icon/contact/icon2.png';
 import icon3 from '../../images/icon/contact/icon3.png';
-import recentBlogPic1 from '../../images/blog/recent-blog/pic1.jpg';
-import recentBlogPic2 from '../../images/blog/recent-blog/pic2.jpg';
+
+
 
 class aboutSection extends Component{
 	render(){
@@ -29,7 +29,7 @@ class aboutSection extends Component{
 											<span className="icon-cell"><img src={icon3} alt=""/></span> 
 										</div>
 										<div className="icon-content">
-											<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+											<p>Retiramos tu auto desde cualquier punto de Santiago</p>
 										</div>
 									</div>
 								</div>
@@ -39,7 +39,7 @@ class aboutSection extends Component{
 											<span className="icon-cell"><img src={icon1} alt=""/></span> 
 										</div>
 										<div className="icon-content">
-											<p>+001 123 456 790 <br/>(02) 3424 44 00</p>
+											<p>+56935707961 <br/></p>
 										</div>
 									</div>
 								</div>
@@ -49,7 +49,7 @@ class aboutSection extends Component{
 											<span className="icon-cell"><img src={icon2} alt=""/></span> 
 										</div>
 										<div className="icon-content">
-											<p>info@yourdomain.com <br/>example@support.com</p>
+											<p>contacto@aavto.cl <br/></p>
 										</div>
 									</div>
 								</div>
@@ -61,67 +61,36 @@ class aboutSection extends Component{
 							<div className="row">
 								<div className="col-xl-3 col-md-6">
 									<div className="widget footer_widget">
-										<h5 className="footer-title">Company</h5>
-										<p className="mb-20">Need a special repair service? we are happy to fulfil every request in order to exceed your expectations</p>
+										<h5 className="footer-title">Compañía</h5>
+										<p className="mb-20">Necesitas un servicio automotríz? estaremos felices de ofrecerte un propuesta que, sin duda, superará tus expectativas</p>
 										<div className="ft-content">
 											<i className="fa fa-phone"></i>
-											<span>Talk To Our Support</span>
-											<h4>+22 123 456 7890 </h4>
+											<span>Hábla con nuestro soporte</span>
+											<h4>+56935797961 </h4>
 										</div>
 									</div>
 								</div>
 								<div className="col-xl-3 col-md-6">
 									<div className="widget widget-link-2">
-										<h5 className="footer-title">Our Solutions</h5>
+										<h5 className="footer-title">Nuestras soliciones</h5>
 										<ul>
-											<li><Link to="/about-us">About Us</Link></li>
-											<li><Link to="#">Engine Services</Link></li>
-											<li><Link to="/booking">Booking</Link></li>
-											<li><Link to="#">Oil And Filters</Link></li>
-											<li><Link to="/services">Our Services</Link></li>
-											<li><Link to="#">Belts And Hoses</Link></li>
-											<li><Link to="/pricing-plan">Pricing Plan</Link></li>
-											<li><Link to="#">Brake Repair</Link></li>
-											<li><Link to="/team">Out Team</Link></li>
-											<li><Link to="#">Air Conditioning</Link></li>
-											<li><Link to="/contact-us">Contact Us</Link></li>
+											
+											<li><Link to="#">Scanner</Link></li>
+											<li><Link to="/booking">Agenda</Link></li>
+											<li><Link to="#">Aceite y filtros</Link></li>
+											<li><Link to="#">Flotas</Link></li>
+											<li><Link to="#">Cinturones de seguridad</Link></li>										
+											<li><Link to="#">Frenos</Link></li>											
+											<li><Link to="#">Air Conditioning</Link></li>										
 											<li><Link to="#">Tire And Wheel</Link></li>
 										</ul>							
 									</div>
 								</div>
-								<div className="col-xl-3 col-md-6">
-									<div className="widget recent-posts-entry">
-										<h5 className="footer-title">Latest news</h5>
-										<div className="widget-post-bx">
-											<div className="widget-post clearfix">
-												<div className="ttr-post-media"> 
-													<img src={recentBlogPic1} alt=""/> 
-												</div>
-												<div className="ttr-post-info">
-													<h6 className="post-title"><Link to="/blog-details">Precious Tips To Help You Get Better.</Link></h6>
-													<ul className="post-meta">
-														<li className="date"><Link to="/blog-details"><i className="fa fa-calendar"></i> 15 Aug 2021</Link></li>
-													</ul>
-												</div>
-											</div>
-											<div className="widget-post clearfix">
-												<div className="ttr-post-media"> 
-													<img src={recentBlogPic2} alt=""/> 
-												</div>
-												<div className="ttr-post-info">
-													<h6 className="post-title"><Link to="/blog-details">Ten Doubts You Should Clarify About.</Link></h6>
-													<ul className="post-meta">
-														<li className="date"><Link to="/blog-details"><i className="fa fa-calendar"></i> 15 Aug 2021</Link></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+								
 								<div className="col-xl-3 col-md-6">
 									<div className="widget widget_info">
-										<h5 className="footer-title">Subscribe Now</h5>
-										<p className="mb-20">Weekly Breaking News Analysis And Cutting Edge Advices On Job Searching.</p>
+										<h5 className="footer-title">Suscíbete</h5>
+										<p className="mb-20">y entérate de nuestras novedades y descuentos</p>
 										<form className="subscribe-form subscription-form mb-30">
 											<div className="ajax-message"></div>
 											<div className="input-group">
