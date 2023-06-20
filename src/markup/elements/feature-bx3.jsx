@@ -14,15 +14,15 @@ class FeatureThreeSection extends Component{
 						<div className="row align-items-center">
 							<div className="col-xl-6 col-lg-8">
 								<div className="heading-bx pr-5">
-									<h6 className="title-ext m-b0 text-primary">OUR SERVICE</h6>
-									<h2 className="title">EXCELLENT SERVICE PROVIDE FOR BUSINESS </h2>
+									<h6 className="title-ext m-b0 text-primary">NUESTROS SERVICIOS</h6>
+									<h2 className="title">EXCELENTE SERVICIO PARA TU NEGOCIO </h2>
 								</div>
 							</div>
 							<div className="col-xl-6">
 								<div className="heading-ext bg-primary text-white mb-40">
-									<h4 className="title mb-0">FIND SERVICE FOR YOU</h4>
+									<h4 className="title mb-0">ENCUENTRA EL SERVICIO PARA TI</h4>
 									<div className="right">
-										<Link to="/service-2" className="btn btn-light btn-lg">ALL SERVICES</Link>
+										<Link to="/service-2" className="btn btn-light btn-lg">TODOS LOS SERVICIOS</Link>
 									</div>
 								</div>
 							</div>

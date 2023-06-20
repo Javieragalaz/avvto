@@ -115,7 +115,7 @@ class aboutSection extends Component{
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-6 col-md-6 col-sm-12 text-center text-md-start">
-									<p className="mb-0">© Copyright Serfix 2022. All right reserved.</p>
+									<p className="mb-0">© Copyright aavto 2023. All right reserved.</p>
 								</div>
 								<div className="col-lg-6 col-md-6 col-sm-12 text-center text-md-end">
 									<ul className="widget-link">

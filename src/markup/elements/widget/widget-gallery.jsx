@@ -73,7 +73,7 @@ class WidgetGallery extends Component{
 			<>
 				
 				<div className="widget widget_gallery gallery-grid-3">
-					<h5 className="widget-title">Our Gallery</h5>
+					<h5 className="widget-title">Nuestra galería</h5>
 					
 					<GalleryImg />
 					

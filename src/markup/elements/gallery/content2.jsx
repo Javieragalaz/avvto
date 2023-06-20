@@ -8,73 +8,45 @@ import Pic1 from "../../../images/portfolio/image_1.jpg"
 import Pic2 from "../../../images/portfolio/image_2.jpg"
 import Pic3 from "../../../images/portfolio/image_3.jpg"
 import Pic4 from "../../../images/portfolio/image_4.jpg"
-import Pic5 from "../../../images/portfolio/image_5.jpg"
-import Pic6 from "../../../images/portfolio/image_6.jpg"
+
 
 // Portfolio Content
 const content = [
-	{ 
-		thumb: Pic1, 
+	{
+		thumb: Pic1,
 		LightImg: Pic1,
-		tag: ['Oil & Gas',],
-		title: "OIL CHANGE",
-		exeTitle: "SERVICES",
+		tag: ['Aceite',],
+		title: "CAMBIO DE ACEITE",
 	},
-	{ 
-		thumb: Pic2,
-		LightImg: Pic2,
-		tag: ['Oil & Gas',],
-		title: "BREAK REPAIR",
-		exeTitle: "SERVICES",
-	},
-	{ 
+	{
 		thumb: Pic3,
 		LightImg: Pic3,
-		tag: ['Industrial',],
-		title: "CAR WHEELS",
-		exeTitle: "SERVICES",
+		tag: ['Frenos',],
+		title: "REPARACIÓN DE FRENOS",
 	},
-	{ 
+	{
 		thumb: Pic4,
 		LightImg: Pic4,
-		tag: ['Chemical',],
-		title: "GENERAL SERVICE",
-		exeTitle: "SERVICES",
+		tag: ['Ruedas',],
+		title: "MANTENCIÓN DE NEUMÁTIOS",
 	},
-	{ 
-		thumb: Pic5,
-		LightImg: Pic5,
-		tag: ['development',],
-		title: "OIL CHANGE",
-		exeTitle: "SERVICES",
-	},
-	{ 
-		thumb: Pic6,
-		LightImg: Pic6,		
-		tag: ['Metallurgy',],
-		title: "BREAK REPAIR",
-		exeTitle: "SERVICES",
-	},
-	{ 
-		thumb: Pic1,
-		LightImg: Pic1,		
-		tag: ['Industrial',],
-		title: "CAR WHEELS",
-		exeTitle: "SERVICES",
-	},
-	{ 
+	{
 		thumb: Pic2,
 		LightImg: Pic2,
-		tag: ['Metallurgy',],
-		title: "GENERAL SERVICE",
-		exeTitle: "SERVICES",
+		tag: ['Cumplimiento de normativa',],
+		title: "REVISIÓN TÉCNICA",
 	},
-	{ 
-		thumb: Pic3,
-		LightImg: Pic3,
-		tag: ['Metallurgy',],
-		title: "GENERAL SERVICE",
-		exeTitle: "SERVICES",
+	{
+		thumb: Pic4,
+		LightImg: Pic4,
+		tag: ['Fallas técnicas',],
+		title: "REPARACIONES",
+	},
+	{
+		thumb: Pic1,
+		LightImg: Pic1,
+		tag: ['Servicios generales',],
+		title: "SCANNER",
 	},
 ]
 

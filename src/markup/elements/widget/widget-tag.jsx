@@ -8,20 +8,17 @@ class widgetTag extends Component{
 				<div className="widget widget_tag_cloud">
 					<h5 className="widget-title">Tags</h5>
 					<div className="tagcloud"> 
-						<Link to="#">Engine</Link> 
-						<Link to="#">Hand tools</Link> 
-						<Link to="#">Hardware</Link> 
-						<Link to="#">Power Tools</Link> 
-						<Link to="#">Storage</Link> 
-						<Link to="#">Welding</Link> 
-						<Link to="#">Workwear</Link>  
-						<Link to="#">Service</Link>  
-						<Link to="#">Belts</Link>  
-						<Link to="#">Hoses</Link>  
-						<Link to="#">Brake</Link>  
-						<Link to="#">Repair</Link>  
-						<Link to="#">Tire</Link>  
-						<Link to="#">Wheel</Link>  
+						<Link to="#">Motor</Link> 
+						<Link to="#">Scanner</Link> 
+						<Link to="#">Los mejores insumos</Link> 
+						<Link to="#">Desabolladuras</Link> 
+						<Link to="#">Reparaciones</Link>  
+						<Link to="#">Servicio técnivo</Link>  
+						<Link to="#">Cinturones de seguridad</Link>  
+						<Link to="#">Magueras</Link>  
+						<Link to="#">Frenos</Link>  
+						<Link to="#">Revisión técnica</Link>  
+						<Link to="#">Neumáticos</Link>   
 					</div>
 				</div>
 				

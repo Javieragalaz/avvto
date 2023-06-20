@@ -31,8 +31,8 @@ class TeamTwoSection extends Component{
 										</ul>
 									</div>
 									<div className="team-info">
-										<h5 className="title"><Link to="/team-details">Michel H. Bohman</Link></h5>
-										<span className="text-primary">CEO & FOUNDER</span>
+										<h5 className="title"><Link to="/team-details">Sebastián Ramírez</Link></h5>
+										<span className="text-primary">CEO & FUNDADOR</span>
 									</div>
 								</div>
 							</div>
@@ -48,8 +48,8 @@ class TeamTwoSection extends Component{
 										</ul>
 									</div>
 									<div className="team-info">
-										<h5 className="title"><Link to="/team-details">Sonar Z. Moyna</Link></h5>
-										<span className="text-primary">ENGINEER</span>
+										<h5 className="title"><Link to="/team-details">Matías Verdejo</Link></h5>
+										<span className="text-primary">FUNDADOR & DESARROLLADOR</span>
 									</div>
 								</div>
 							</div>
@@ -65,8 +65,8 @@ class TeamTwoSection extends Component{
 										</ul>
 									</div>
 									<div className="team-info">
-										<h5 className="title"><Link to="/team-details">Kalina GH. Mollika</Link></h5>
-										<span className="text-primary">WORKER</span>
+										<h5 className="title"><Link to="/team-details">Javiera Galaz</Link></h5>
+										<span className="text-primary">Community Manager</span>
 									</div>
 								</div>
 							</div>
@@ -82,7 +82,7 @@ class TeamTwoSection extends Component{
 										</ul>
 									</div>
 									<div className="team-info">
-										<h5 className="title"><Link to="/team-details">Falikaz DJ. Pauls</Link></h5>
+										<h5 className="title"><Link to="/team-details">ALEXA</Link></h5>
 										<span className="text-primary">HELPER</span>
 									</div>
 								</div>

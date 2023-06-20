@@ -17,8 +17,8 @@ class PartnerShipsSection extends Component{
 						<div className="row align-items-center">
 							<div className="col-xl-5 col-lg-5">
 								<div className="heading-bx mb-4 pr-lg-5">
-									<h6 className="title-ext m-b0 text-primary">PARTNERSHIPS</h6>
-									<h2 className="title">OUR PARTNERSHIPS</h2>
+									<h6 className="title-ext m-b0 text-primary">SOCIOS</h6>
+									<h2 className="title">NUESTRAS ASOCIACIONES</h2>
 									<p>We offer a full range of garage services to vehicle owners located in Tucson area. All mechanic services are performed.</p>
 								</div>
 							</div>

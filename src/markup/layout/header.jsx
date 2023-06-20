@@ -86,7 +86,7 @@ class aboutSection extends Component {
 												<li>
 													<Link to="#">BLOG</Link>
 													<ul>
-														<li><Link to="/booking"><span>CUIDA TU VEHICULO</span></Link></li>
+														<li><Link to="/blog-details"><span>CUIDA TU VEHICULO</span></Link></li>
 												
 													</ul>
 												</li>

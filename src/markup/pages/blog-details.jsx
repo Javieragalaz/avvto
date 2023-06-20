@@ -34,11 +34,11 @@ class BlogDetails extends Component{
 					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
-								<h1><span>Blog Details</span></h1>
+								<h1><span>Blog</span></h1>
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
-										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Blog Details</li>
+									
+										<li className="breadcrumb-item active" aria-current="page">Cuida tu vehículo</li>
 									</ul>
 								</nav>
 							</div>

@@ -24,9 +24,9 @@ class widgetHelp extends Component{
 								s8.1-18.1,18.1-18.1h30.1c10,0,18.1,8.1,18.1,18.1S278.25,452,268.25,452z M437.95,274.9c0,22.9-18.6,41.5-41.5,41.5h-24.9V204.8
 								h24.9c22.9,0,41.5,18.6,41.5,41.5V274.9z"/>
 							</svg>
-							<h5 className="title mt-20">How Can We Help</h5>
-							<p>If you need any helps, please free to contact us.</p>
-							<Link to="/contact-1" className="btn btn-primary">Contact Us</Link>
+							<h5 className="title mt-20">¿Cómo podemos ayudarte?</h5>
+							<p>Si necesitas ayuda, no dudes en contactarnos.</p>
+							<Link to="/contact-1" className="btn btn-primary">Contáctanos</Link>
 						</div>
 					</div>
 				</div>

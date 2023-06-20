@@ -29,7 +29,7 @@ class AboutUsOneSection extends Component{
 									<div className="about-contact bg-primary text-white">
 										<h6 className="title-ext text-white">¿QUIERES HABLAR?</h6>
 										<h3 className="number mb-15 text-white">+56935707961 </h3>
-										<p className="mb-20">Necesitar un servicio especial de reparación? estamos felices de ofrecerte un servicio que superes tus expectativas</p>
+										<p className="mb-20">Necesitas un servicio especial de reparación? estamos felices de ofrecerte un servicio que superes tus expectativas</p>
 										<Link to="/booking" className="btn btn-light">Agenda una visita</Link>
 									</div>
 								</div>
