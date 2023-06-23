@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
@@ -36,4 +36,4 @@ class ForgetPassword extends Component{
 	}
 }
 
-export default ForgetPassword;
+export default ForgetPassword; */

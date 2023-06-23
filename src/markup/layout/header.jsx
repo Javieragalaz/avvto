@@ -67,14 +67,14 @@ class aboutSection extends Component {
 									</div>
 									<ul className="nav navbar-nav">
 										<li className="active">
-											<Link to="#">Home<i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu">
-												<li><Link to="/"><span>Nuestros servicios</span> </Link></li>
-												<li><Link to="/index-2"><span>Sobre nuestro trabajo</span></Link></li>
+											<Link to="/">HOME</Link>
+											<ul>
+											{/* 	<li><Link to="/blog-grid"></Link></li> */}
+											{/* 	<li><Link to="/index-2"><span>Sobre nuestro trabajo</span></Link></li> */}
 											</ul>
 										</li>
-										<li className="has-mega-menu "><Link to="#">Información<i className="fa fa-chevron-down"></i></Link>
-											<ul className="mega-menu">
+										<li className="has-mega-menu "><Link to="/blog-grid">BLOG</Link> </li>
+											{/* <ul className="mega-menu">
 												<li>
 													<Link to="#">Sobre nosotros</Link>
 													<ul>
@@ -91,8 +91,8 @@ class aboutSection extends Component {
 													</ul>
 												</li>
 												
-											</ul>
-										</li>
+											</ul> */}
+										{/* </li>
 										<li>
 											<Link to="#">SERVICIOS<i className="fa fa-chevron-down"></i></Link>
 											<ul className="sub-menu">
@@ -104,21 +104,21 @@ class aboutSection extends Component {
 													</ul>
 												</li>
 											</ul>
-										</li>
-										<li><Link to="#">PREGUNTAS FRECUENTES<i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu left">
+										</li> */}
+										<li><Link to="/faq-1">PREGUNTAS FRECUENTES</Link>
+											{/* <ul className="sub-menu left">
 												<li><Link to="/blog-grid"><span>¿Cuáles son los valores?</span></Link></li>
 												<li><Link to="/blog-grid-sidebar"><span>¿Cuánto tiempo me quedaré sin auto?</span></Link></li>
 												<li><Link to="/blog-masonry"><span>¿Puede otra persona tramitar la revisión téncina por mi?</span></Link></li>
 												<li><Link to="/blog-list-sidebar"><span>¿Tienen garantía por el servicio?</span></Link></li>
 												
-											</ul>
+											</ul> */}
 										</li>
-										<li><Link to="#">CONTÁCTANOS<i className="fa fa-chevron-down"></i></Link>
-											<ul className="sub-menu left">
+										<li><Link to="#">CONTÁCTANOS</Link>
+											{/* <ul className="sub-menu left">
 												<li><Link to="/contact-1"><span>AQUI VA LINK A FORMULARIO</span></Link></li>
 												
-											</ul>
+											</ul> */}
 										</li>
 									</ul>
 									<ul className="social-media">

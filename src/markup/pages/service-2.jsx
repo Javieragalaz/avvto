@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -52,4 +52,4 @@ class Services2 extends Component{
 	}
 }
 
-export default Services2;
+export default Services2; */

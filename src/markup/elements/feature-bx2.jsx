@@ -14,7 +14,7 @@ class FeatureTwoSection extends Component{
 										<i className="flaticon-fuel-1"></i>
 									</div>
 									<div className="icon-content">
-										<h5 className="ttr-tilte">OIL CHANGE</h5>
+										<h5 className="ttr-tilte">OHola</h5>
 										<p>There are many variations of passages of Lorem Ipsum available.</p>
 										<Link to="/service-tire-and-wheel-services" className="btn-link">READ MORE</Link>
 									</div>

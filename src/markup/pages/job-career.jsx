@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -146,4 +146,4 @@ class JobCareer extends Component{
 	}
 }
 
-export default JobCareer;
+export default JobCareer; */

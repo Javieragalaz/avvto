@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
@@ -37,4 +37,4 @@ class Login extends Component{
 	}
 }
 
-export default Login;
+export default Login; */

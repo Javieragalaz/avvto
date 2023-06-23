@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -193,4 +193,4 @@ class Booking extends Component{
 	}
 }
 
-export default Booking;
+export default Booking; */

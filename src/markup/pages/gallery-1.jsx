@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -50,4 +50,4 @@ class Gallery extends Component{
 	}
 }
 
-export default Gallery;
+export default Gallery; */

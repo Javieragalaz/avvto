@@ -23,7 +23,7 @@ class AboutUsOneSection extends Component{
 									<div className="content-info">
 										<div className="content-left">
 											<div className="service-content">
-												<h6 className="title">General Service</h6>
+												<h6 className="title">Servicios generales</h6>
 											</div>
 											<div className="service-content">
 												<h6 className="title">Car Batteries</h6>
