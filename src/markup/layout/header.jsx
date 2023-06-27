@@ -114,11 +114,8 @@ class aboutSection extends Component {
 												
 											</ul> */}
 										</li>
-										<li><Link to="#">CONTÁCTANOS</Link>
-											{/* <ul className="sub-menu left">
-												<li><Link to="/contact-1"><span>AQUI VA LINK A FORMULARIO</span></Link></li>
-												
-											</ul> */}
+										<li><Link to="contact-2">CONTÁCTANOS</Link>
+											
 										</li>
 									</ul>
 									<ul className="social-media">

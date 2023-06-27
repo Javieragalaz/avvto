@@ -70,9 +70,9 @@ class aboutSection extends Component{
 										</div>
 									</div>
 								</div>
-								<div className="col-xl-3 col-md-6">
+							{/* 	<div className="col-xl-3 col-md-6">
 									<div className="widget widget-link-2">
-										<h5 className="footer-title">Nuestras soliciones</h5>
+										<h5 className="footer-title">Nuestras soluciones</h5>
 										<ul>
 											
 											<li><Link to="#">Scanner</Link></li>
@@ -85,7 +85,7 @@ class aboutSection extends Component{
 											<li><Link to="#">Tire And Wheel</Link></li>
 										</ul>							
 									</div>
-								</div>
+								</div> */}
 								
 								<div className="col-xl-3 col-md-6">
 									<div className="widget widget_info">
@@ -119,11 +119,11 @@ class aboutSection extends Component{
 								</div>
 								<div className="col-lg-6 col-md-6 col-sm-12 text-center text-md-end">
 									<ul className="widget-link">
-										<li><Link to="/index">Home</Link></li>
-										<li><Link to="/about-us">About</Link></li>
+										<li><Link to="/">Home</Link></li>
+										<li><Link to="/blog-grid">BLOG</Link></li>
 										<li><Link to="/faq-1">FAQs</Link></li>
-										<li><Link to="/services">Services</Link></li>
-										<li><Link to="/contact-us">Contact</Link></li>
+										<li><Link to="/contact-2">CONTACTO</Link></li>
+									
 									</ul>
 								</div>
 							</div>

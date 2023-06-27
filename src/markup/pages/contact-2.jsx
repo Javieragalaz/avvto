@@ -27,11 +27,11 @@ class ContactUs2 extends Component{
 					<div className="page-banner ovbl-dark" style={{backgroundImage: "url("+bnrImg+")"}}>
 						<div className="container">
 							<div className="page-banner-entry text-center">
-								<h1><span>Contact Us 2</span></h1>
+								<h1><span>Contacto</span></h1>
 								<nav aria-label="breadcrumb" className="breadcrumb-row">
 									<ul className="breadcrumb">
 										<li className="breadcrumb-item"><Link to="/"><i className="las la-home"></i>Home</Link></li>
-										<li className="breadcrumb-item active" aria-current="page">Contact Us 2</li>
+										<li className="breadcrumb-item active" aria-current="page">Contáctanos</li>
 									</ul>
 								</nav>
 							</div>
@@ -44,40 +44,40 @@ class ContactUs2 extends Component{
 								<div className="col-lg-5 mb-50">
 									<form className="contact-form style1 ajax-form" action="script/contact.php">
 										<div className="heading-bx mb-4 text-white">
-											<h6 className="title-ext text-white">Contact Form</h6>
-											<h3 className="title mb-0">DO YOU HAVE ANY<br/> QUESTIONS</h3>
+											<h6 className="title-ext text-white">Formulario de contacto</h6>
+											<h3 className="title mb-0">TIENES<br/>PREGUNTAS?</h3>
 										</div>
 										<div className="row">
 											<div className="col-lg-12">
 												<div className="form-group  mb-3">
 													<div className="input-group">
-														<input name="name" type="text" required className="form-control valid-character" placeholder="Your Name"/>
+														<input name="name" type="text" required className="form-control valid-character" placeholder="Nombre"/>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-12">
 												<div className="form-group  mb-3">
 													<div className="input-group"> 
-														<input name="email" type="email" className="form-control" required  placeholder="Your Email Address"/>
+														<input name="email" type="email" className="form-control" required  placeholder="Email"/>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-12">
 												<div className="form-group mb-3">
 													<div className="input-group">
-														<input name="phone" type="text" required className="form-control int-value" placeholder="Your Phone"/>
+														<input name="phone" type="text" required className="form-control int-value" placeholder="Teléfono"/>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-12">
 												<div className="form-group mb-3">
 													<div className="input-group">
-														<textarea name="message" rows="4" className="form-control" placeholder="Type Message" required ></textarea>
+														<textarea name="message" rows="4" className="form-control" placeholder="Escríbe tu mensaje" required ></textarea>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-12">
-												<button name="submit" type="submit" value="Submit" className="btn btn-secondary btn-lg"> Send Message</button>
+												<button name="submit" type="submit" value="Submit" className="btn btn-secondary btn-lg"> Enviar</button>
 											</div>
 										</div>
 									</form>
@@ -85,26 +85,21 @@ class ContactUs2 extends Component{
 								<div className="col-lg-7 mb-30">
 									<div className="contact-ri">
 										<div className="heading-bx mb-4">
-											<h6 className="title-ext text-primary">Contact Info</h6>
-											<h2 className="title mb-0">CONTACT US FOR ANY <br/>INFORMATIONS</h2>
+											<h6 className="title-ext text-primary">info</h6>
+											<h2 className="title mb-0"><br/>MÁS INFORMACIÓN</h2>
 										</div>
 										<div className="row">
 											<div className="col-md-6 col-sm-6 mb-15">
 												<div className="icon-box">
-													<h6 className="title"><i className="ti-map-alt"></i>Location</h6>		
-													<p>2005 Stokes Isle Apt. 896, Venaville 10010, USA</p>
+												<h6 className="title"><i className="ti-id-badge"></i>Email & teléfono</h6>	
+												<Link to="#">contacto@aavto.cl</Link>		
+													<p>(+56) 935707961</p>
 												</div>
 											</div>
-											<div className="col-md-6 col-sm-6 mb-15">
-												<div className="icon-box">
-													<h6 className="title"><i className="ti-id-badge"></i>Email & Phone</h6>		
-													<Link to="#">info@yourdomain.com</Link>
-													<p>(+68) 120034509</p>
-												</div>
-											</div>
+									
 											<div className="col-lg-12 mb-15">
 												<div className="icon-box">
-													<h6 className="title"><i className="ti-world"></i>Follow Us</h6>
+													<h6 className="title"><i className="ti-world"></i>Síguenos</h6>
 													<ul className="social-media">
 														<li><a target="_blank" href="https://www.facebook.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-facebook"></i></a></li>
 														<li><a target="_blank" href="https://www.google.com/" rel="noreferrer" className="btn btn-primary"><i className="fa fa-google-plus"></i></a></li>
