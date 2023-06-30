@@ -56,10 +56,10 @@ class aboutSection extends Component{
 							</div>
 						</div>
 					</div>
-					<div className="footer-top bt0">
+					{/* <div className="footer-top bt0">
 						<div className="container me-3">
-							<div className="row">
-								<div className="col-xl-3 col-md-6">
+							<div className="row"> */}
+								{/* <div className="col-xl-3 col-md-6">
 									<div className="widget footer_widget">
 										<h5 className="footer-title">Compañía</h5>
 										<p className="mb-20">Necesitas un servicio automotríz? estaremos felices de ofrecerte un propuesta que, sin duda, superará tus expectativas</p>
@@ -69,10 +69,10 @@ class aboutSection extends Component{
 											<h4>+56935797961 </h4>
 										</div>
 									</div>
-								</div>
+								</div> */}
 						
 								
-								<div className="col-xl-3 col-md-6">
+								{/* <div className="col-xl-3 col-md-6">
 									<div className="widget widget_info">
 										<h5 className="footer-title">Suscríbete</h5>
 										<p className="mb-20">y entérate de nuestras novedades y descuentos</p>
@@ -92,10 +92,10 @@ class aboutSection extends Component{
 											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/aavto.cl/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
 										</ul>
 									</div>
-								</div>
-							</div>
+								</div> */}
+			{/* 				</div>
 						</div>
-					</div>
+					</div> */}
 					<div className="footer-bottom">
 						<div className="container">
 							<div className="row">

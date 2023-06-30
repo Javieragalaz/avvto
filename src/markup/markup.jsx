@@ -33,8 +33,8 @@ import ServiceBrakeRepair from './pages/service-brake-repair';
 import ServiceEngineDiagnostics from './pages/service-engine-diagnostics';
 import ServiceLubeOilAndFilters from './pages/service-lube-oil-and-filters';
 import ServiceTireAndWheelServices from './pages/service-tire-and-wheel-services';
-import Team from './pages/team';
-import TeamDetails from './pages/team-details';
+/* import Team from './pages/team'; */
+/* import TeamDetails from './pages/team-details'; */
 import Error from './pages/error-404';
 
 class Markup extends Component{
@@ -72,8 +72,8 @@ class Markup extends Component{
 						<Route path='/service-engine-diagnostics' exact component={ServiceEngineDiagnostics} />
 						<Route path='/service-lube-oil-and-filters' exact component={ServiceLubeOilAndFilters} />
 						<Route path='/service-tire-and-wheel-services' exact component={ServiceTireAndWheelServices} />
-						<Route path='/team' exact component={Team} />
-						<Route path='/team-details' exact component={TeamDetails} />
+		{/* 				<Route path='/team' exact component={Team} />
+						<Route path='/team-details' exact component={TeamDetails} /> */}
 						<Route component={Error} />
 						
 					</Switch>

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import { Accordion } from "react-bootstrap";
 
@@ -151,4 +151,4 @@ class TeamDetails extends Component{
 	}
 }
 
-export default TeamDetails;
+export default TeamDetails; */

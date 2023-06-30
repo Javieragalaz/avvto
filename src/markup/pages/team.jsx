@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+/* import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 
 // Layout
@@ -141,4 +141,4 @@ class Team extends Component{
 	}
 }
 
-export default Team;
+export default Team; */

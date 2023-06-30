@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
@@ -75,4 +75,4 @@ class TeamOneSection extends Component{
 	}
 }
 
-export default TeamOneSection;
+export default TeamOneSection; */
