@@ -57,7 +57,7 @@ class aboutSection extends Component{
 						</div>
 					</div>
 					<div className="footer-top bt0">
-						<div className="container">
+						<div className="container me-3">
 							<div className="row">
 								<div className="col-xl-3 col-md-6">
 									<div className="widget footer_widget">
@@ -70,26 +70,11 @@ class aboutSection extends Component{
 										</div>
 									</div>
 								</div>
-							{/* 	<div className="col-xl-3 col-md-6">
-									<div className="widget widget-link-2">
-										<h5 className="footer-title">Nuestras soluciones</h5>
-										<ul>
-											
-											<li><Link to="#">Scanner</Link></li>
-											<li><Link to="/booking">Agenda</Link></li>
-											<li><Link to="#">Aceite y filtros</Link></li>
-											<li><Link to="#">Flotas</Link></li>
-											<li><Link to="#">Cinturones de seguridad</Link></li>										
-											<li><Link to="#">Frenos</Link></li>											
-											<li><Link to="#">Air Conditioning</Link></li>										
-											<li><Link to="#">Tire And Wheel</Link></li>
-										</ul>							
-									</div>
-								</div> */}
+						
 								
 								<div className="col-xl-3 col-md-6">
 									<div className="widget widget_info">
-										<h5 className="footer-title">Suscíbete</h5>
+										<h5 className="footer-title">Suscríbete</h5>
 										<p className="mb-20">y entérate de nuestras novedades y descuentos</p>
 										<form className="subscribe-form subscription-form mb-30">
 											<div className="ajax-message"></div>
@@ -101,10 +86,10 @@ class aboutSection extends Component{
 											</div>
 										</form>
 										<ul className="list-inline ft-social-bx">
-											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/" className="btn button-sm"><i className="fa fa-facebook"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/aavto.cl/" className="btn button-sm"><i className="fa fa-facebook"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://twitter.com/" className="btn button-sm"><i className="fa fa-twitter"></i></a></li>
 											<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/" className="btn button-sm"><i className="fa fa-linkedin"></i></a></li>
-											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
+											<li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/aavto.cl/" className="btn button-sm"><i className="fa fa-instagram"></i></a></li>
 										</ul>
 									</div>
 								</div>

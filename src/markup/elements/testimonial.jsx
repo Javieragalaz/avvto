@@ -1,36 +1,26 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 import Slider from "react-slick";
 
 // Import Images
 import bg1 from "../../images/background/bg1.jpg"
 import testPic1 from "../../images/testimonials/pic1.jpg"
 import testPic2 from "../../images/testimonials/pic2.jpg"
-import testPic3 from "../../images/testimonials/pic3.jpg"
-import testPic4 from "../../images/testimonials/pic4.jpg"
+
 
 // Team Content
 const content = [
 	{ 
 		thumb: testPic1,
-		name: "Michel Bohman",
-		text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit risus at quam hendrerit, quis egestas ligula imperdiet. Cras ultricies massa nec nulla tincidunt, vel viverra lacus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus odio, pellentesque sed.",		
+		name: "David Gutierrez",
+		text: "Tuve un problema con mi auto, me contacte con ellos super facil, llegaron super rapido, una revision acertada y lograron solucionar un problema que tenia de hace meses, excelente servicio!",		
 	},
 	{ 
 		thumb: testPic2,
-		name: "Kalina Mollika",
-		text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit risus at quam hendrerit, quis egestas ligula imperdiet. Cras ultricies massa nec nulla tincidunt, vel viverra lacus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus odio, pellentesque sed.",		
+		name: "Romina Correa",
+		text: "Tuve que hacer la mantención a mi auto y se encargaron de todo, me hicieron una cotización con buen precio y lo dejé en sus manos y muy buen resultado, súper cómodo que retiren y dejen el auto, muy confiables, los recomiendo.",		
 	},
-	{ 
-		thumb: testPic3,
-		name: "Michel Bohman",
-		text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit risus at quam hendrerit, quis egestas ligula imperdiet. Cras ultricies massa nec nulla tincidunt, vel viverra lacus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus odio, pellentesque sed.",		
-	},
-	{ 
-		thumb: testPic4,
-		name: "Kalina Mollika",
-		text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit risus at quam hendrerit, quis egestas ligula imperdiet. Cras ultricies massa nec nulla tincidunt, vel viverra lacus ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque metus odio, pellentesque sed.",		
-	},
+
 ]
 
 class TestimonialSection extends Component{
@@ -65,12 +55,10 @@ class TestimonialSection extends Component{
 					<div className="container">
 						<div className="heading-bx text-white d-lg-flex d-md-block align-items-end justify-content-between">
 							<div className="clearfix mb-2">
-								<h6 className="title-ext text-primary">TESTIMONIAL</h6>
-								<h2 className="title mb-0">WHAT CLIENTS SAY</h2>
+								<h6 className="title-ext text-light">TESTIMONIOS</h6>
+								<h2 className="title mb-0">Los que dicen nuestros clientes</h2>
 							</div>
-							<div className="clearfix mt-md-20">
-								<Link to="#" className="btn btn-outline-primary">View All Client</Link>
-							</div>
+							
 						</div>
 						<Slider {...settings} className="testimonial-carousel-1 slick-arrow-none">
 							{content.map((item) =>(
@@ -83,9 +71,7 @@ class TestimonialSection extends Component{
 											<div className="testimonial-info">
 												<h6 className="name">- {item.name}</h6>
 											</div>
-											<div className="testimonial-thumb">
-												<img src={item.thumb} alt=""/>
-											</div>
+											
 										</div>
 									</div>
 								</div>
